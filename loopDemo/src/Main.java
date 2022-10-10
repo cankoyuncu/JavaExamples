@@ -3,9 +3,19 @@ public class Main {
 
         //For Loop
 
-        for(int i=1;i<=10;i++) {
+        for (int i = 1; i <= 10; i++) {
             System.out.println(i);
         }
-        System.out.println("Dongu Bitti!");
+        System.out.println("For Dongusu Bitti!");
+
+
+        //While Loop
+        int i=1;
+        while (i <= 10) {
+            System.out.println(i);
+            i++;
+        }
+
+        System.out.println("While Dongusu Bitti!");
     }
 }
