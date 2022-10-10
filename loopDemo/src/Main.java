@@ -17,5 +17,14 @@ public class Main {
         }
 
         System.out.println("While Dongusu Bitti!");
+
+        //Do-While Loop
+        int j=1;
+        do {
+            System.out.println(j);
+            j+=2;
+        } while(j<10);
+
+        System.out.println("Do-While Dongusu Bitti!");
     }
 }
